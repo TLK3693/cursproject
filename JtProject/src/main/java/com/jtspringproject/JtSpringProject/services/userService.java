@@ -30,7 +30,7 @@ public class userService {
 //			throw new RuntimeException("Add user error");
 //		}
 	}
-	
+
 	public User checkLogin(String username,String password) {
 		return this.userDao.getUser(username, password);
 	}

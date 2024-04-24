@@ -127,7 +127,7 @@
 											<div class="modal-body text-center">
 												<div class="form-group">
 													<input class="form-control" type="number"
-														readonly="readonly" name ="categoryid" id="categoryid" value="0">
+														readonly="readonly" name ="category_id" id="categoryid" value="0">
 												</div>
 												<div class="form-group">
 													<input class="form-control" type="text" name= "categoryname" id="categoryname"

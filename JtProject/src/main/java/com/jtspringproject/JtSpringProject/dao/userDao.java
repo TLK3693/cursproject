@@ -25,7 +25,7 @@ public class userDao {
    @Transactional
     public List<User> getAllUser() {
         Session session = this.sessionFactory.getCurrentSession();
-		List<User>  userList = session.createQuery("from CUSTOMER").list();
+		List<User> userList = session.createQuery("from CUSTOMER").list();
         return userList;
     }
     
