@@ -80,7 +80,7 @@ public class AdminControllerIntegrationTest {
         product.setDescription("Тестовое описание");
 
         // Получение существующей категории из базы данных
-        Category testCategory = categoryService.getCategory(9);
+        Category testCategory = categoryService.getCategory(11);
         product.setCategory(testCategory);
         product.setEndDate(LocalDate.parse("2024-07-01"));
         product.setStartDate(LocalDate.parse("2024-08-30"));

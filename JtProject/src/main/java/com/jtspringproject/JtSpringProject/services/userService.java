@@ -21,7 +21,7 @@ public class userService {
 	}
 	
 	public User addUser(User user) {
-		return this.userDao.saveUser(user);
+//		return this.userDao.saveUser(user);
 //		try {
 //			return this.userDao.saveUser(user);
 //		} catch (DataIntegrityViolationException e) {
@@ -29,6 +29,10 @@ public class userService {
 //
 //			throw new RuntimeException("Add user error");
 //		}
+		if (checkUserExists(user.getUsername())) {
+			throw new IllegalArgumentException("error iwth " + user.getUsername() + " already exists");
+		}
+		return this.userDao.saveUser(user);
 	}
 
 	public User checkLogin(String username,String password) {

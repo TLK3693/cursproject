@@ -18,7 +18,7 @@ public class CategoryDaoTest {
     @Test
     public void testAddCategory() {
         // Создаем новую категорию
-        String categoryName = "UserTest";
+        String categoryName = "CategoryTest";
         Category newCategory = new Category();
         newCategory.setName(categoryName);
 
