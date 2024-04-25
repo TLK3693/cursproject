@@ -6,4 +6,4 @@
 Логин: lisa <br>
 Пароль: 765
 
-Программы: Intellij IDE(source code), XAMPP(MySQL) | PgAdmin4(PostgresSQL)
+Программы: Intellij IDE(source code), XAMPP(MySQL) | PgAdmin4(PostgreSQL)
